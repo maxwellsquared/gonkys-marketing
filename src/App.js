@@ -1,22 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { useState } from 'react';
+
+
 
 function App() {
+  const fruit = process.env.REACT_APP_GONKY_FRUIT;
+  console.log(" env is ", process.env);
+  console.log(" fruit is ", fruit);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={'./gonky-marketing-m.png'} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          My name is Gonky and I'm here to provide<br />
+          some funky marketing content, server-side!<br />
+          I'll write tweets and blogs to make your app explode<br />
+          and give your startup team more time to code!<br />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Hey funky folks! Did you know my favourite fruit is {fruit}?</p>
+
       </header>
     </div>
   );

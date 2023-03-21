@@ -42,7 +42,7 @@ export default function Blog(props) {
                     },
                     {
                         role: "user",
-                        content: `Write a blog post aimed at teachers with helpful information about ${props.prompt}`, //Replace all paragraph breaks with the following symbol: ZQPARAQZ
+                        content: `Write a blog post aimed at teachers with helpful information about ${props.prompt}`,
                     },
                 ],
             });

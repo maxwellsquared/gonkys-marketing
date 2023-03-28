@@ -8,7 +8,7 @@ Feed him a subject and he'll spit out not just an article but also tweets and Fa
 
 Gonky needs an OpenAI API key for now: just copy our .env.example file, enter your API key, and rename it to '.env.' Then run `npm start` and visit Gonky at `http://localhost:3000` in your browser!
 
-Note: Gonky currently uses 
+Note: Gonky currently uses gpt-3.5-turbo because it's cheaper than gpt-4. He's also currently calibrated for the company I work at as of early 2023. To get better results, open `Blog.jsx`, change the prompts, and in the various function calls, set `"model" : "gpt-4."`
 
 ## Available Scripts
 

@@ -1,1 +1,1 @@
-Ensure API is not pushed to github!
+put API key in local ENV file only!

@@ -1,1 +1,1 @@
-put API key in local ENV file only!
+Use ENV file to add OpenAI API key

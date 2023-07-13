@@ -1,1 +1,1 @@
-Use ENV file to add OpenAI API key
+Check OpenAI account for API key, add to local ENV or remote variable file

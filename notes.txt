@@ -1,1 +1,1 @@
-Check OpenAI account for API key, add to local ENV or remote variable file
+1. Get OpenAI API key from account -> settings on site. 2. Create ENV file and add API key (see example)
